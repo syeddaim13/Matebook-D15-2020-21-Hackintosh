@@ -310,6 +310,13 @@ https://zhuanlan.zhihu.com/p/121655468
 5. 使用'crtl' + 'w' 来保存 保存的时候屏幕上会直接显示update written 的，这说明已经写入了  
 6. 使用'alt' + 'q' 来退出，然后即可回到引导进入系统了，CFG已经解锁  
 
+
+修改完成后可以再用那个u盘引导启动一次，查看是否修改成功  
+然后我建议使用[propertree](https://github.com/ske1996/matebook-13-2019-oc-efi/raw/master/ProperTree.zip)修改EFI分区中的EFI/OC/config.plist的kernel/add/quirks为下图所示  
+![image](http://m.qpic.cn/psc?/V51Uqo3Z3KmDDj0bhEZH0ySaLy25K537/ruAMsa53pVQWN7FLK88i5mhOVTuQ0sSbBPmet1ZSU1zDz7zUBccaFytwrKxAqPz4ygQph98Mo9E5.JjYf6DFuuWhDZs8DFFN1ujnFI9OIz4!/b&bo=wASKAwAAAAADB28!&rf=viewer_4)  
+
+
+
 </details> 
 
   
