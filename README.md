@@ -26,7 +26,7 @@ EFI下载地址：[releases](https://github.com/ske1996/Matebook-D14-2020-hackin
 
 
 <details>  
-<summary>⭐️点击查看如何在黑苹果下玩所有3A大作（matebook13/14的黑苹果🉑️）</summary>  
+<summary>⭐️点击查看如何在黑苹果下玩所有3A大作（matebook D14的黑苹果🉑️）</summary>  
     
   
   
@@ -56,19 +56,7 @@ EFI下载地址：[releases](https://github.com/ske1996/Matebook-D14-2020-hackin
 
 
        
-<details>  
-<summary>⭐️扫码进微信群(点击以查看二维码)</summary>  
-⚠️点击以下链接，两个小问题全答对即可获得入群二维码  
-  
-注意:在国内的可能需要挂vpn才能访问  
 
-
-
-[点击进入小问答](https://docs.google.com/forms/d/e/1FAIpQLSfNI8Zy9pfb6cASnH7yUk4QVuKxZWVobU9C_p7Vas2EXjVfEQ/viewform?usp=sf_link)  
-
-
-</details>   
-  
    
 
 
@@ -78,6 +66,8 @@ EFI下载地址：[releases](https://github.com/ske1996/Matebook-D14-2020-hackin
 <summary>点击以查看详细信息</summary>  
   
   
+- 20201117:  
+更新至oc 0.6.4，删除了一些不必要的东西，更新了所有我认为有必要更新的驱动  
   
   
 - 20201012:    
