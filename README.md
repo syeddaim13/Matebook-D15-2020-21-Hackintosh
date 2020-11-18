@@ -156,15 +156,21 @@ matebook D14 2020 i5-10210U
 
 ## 安装方法&镜像下载&视频教程： 
 
-⚠️d14很多是pm981的硬盘，建议换个硬盘，不然天天死机启动失败的够你受得，还有就是安装教程与普通的硬盘不一样  
+⚠️d14很多是pm981的硬盘，建议换个硬盘，不然天天死机启动失败的够你受得，还有就是安装教程与普通的硬盘不一样
+下面的【说明】详情里有教程  
+  
 
 <details>  
 <summary>⚠️说明（一定先读这个）</summary>  
-1.以下教程仅针对安装Catalina，想安装bigsur的自行搜索oc的安装教程  
+
+1. 以下教程仅针对安装Catalina，想安装bigsur的自行搜索oc的安装教程  
   
-2.如果你在以下教程有遇到五国，或者是usb导致的卡eb，卡禁止符号  
+2. 如果你在以下教程有遇到五国，或者是usb导致的卡eb，卡禁止符号  
   方法1.用oc安装，直接在硬盘efi分区扩容后放进我oc的efi，然后用oc引导安装盘，具体教程自行百度  
   方法2.删除u盘中的efi/clover/kexts/other/usbinjectall.kext以及efi/clover/kexts/other/usbport.kext  
+
+3. 关于三星pm981硬盘的版本 [点击查看教程](https://github.com/wendao2008/Matebook-D14-2020-hackintosh-Pm981/blob/main/README.md)  
+
   
 </details>  
 
