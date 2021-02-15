@@ -1,8 +1,7 @@
 # Matebook-D14-2020-OpenCore 黑苹果 hackintosh  
   
   
-⭐️如果你不会安装，需要安装服务，联系微信ske1996  
-可提供收费安装服务，帮你弄好一切可以弄好的驱动，并且保修1个月，收费250，非诚勿扰  
+**⭐️如果你不会安装，需要安装服务，** [点击进入我的淘宝店铺](https://item.taobao.com/item.htm?spm=a2oq0.12575281.0.0.45e51debf0yJ4n&ft=t&id=638314994173)  
   
   
 ⭐️有问题只在github免费答疑，不在微信进行答疑，想白嫖请在github提交issue  
