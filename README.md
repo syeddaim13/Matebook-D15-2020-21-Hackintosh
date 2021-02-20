@@ -3,12 +3,7 @@
   
 **⭐️如果你不会安装，需要安装服务，** [点击进入我的淘宝店铺](https://item.taobao.com/item.htm?spm=a2oq0.12575281.0.0.45e51debf0yJ4n&ft=t&id=638314994173)  
   
-  
-⭐️有问题只在github免费答疑，不在微信进行答疑，想白嫖请在github提交issue  
-【想白嫖请在github提交issue】  
-  
-  
-⭐️微信答疑一问50.   
+ 
 
 
 姐妹项目:[MateBook 13/14 OpenCore 黑苹果](https://github.com/ske1996/matebook-13-2019-oc-efi)  
@@ -158,9 +153,6 @@ matebook D14 2020 i5-10210U
 </details>  
 
 ## 安装方法&镜像下载&视频教程： 
-
-⚠️d14很多是pm981的硬盘，建议换个硬盘，不然天天死机启动失败的够你受得，还有就是安装教程与普通的硬盘不一样
-下面的【说明】详情里有教程  
   
 
 <details>  
@@ -173,7 +165,7 @@ matebook D14 2020 i5-10210U
   方法2.删除u盘中的efi/clover/kexts/other/usbinjectall.kext以及efi/clover/kexts/other/usbport.kext  
 
 3. 关于三星pm981硬盘的版本 [点击查看教程](https://github.com/wendao2008/Matebook-D14-2020-hackintosh-Pm981/blob/main/README.md)  
-
+4. **⭐️如果你不会安装，需要安装服务，** [点击进入我的淘宝店铺](https://item.taobao.com/item.htm?spm=a2oq0.12575281.0.0.45e51debf0yJ4n&ft=t&id=638314994173)  
   
 </details>  
 
@@ -194,10 +186,8 @@ matebook D14 2020 i5-10210U
 
 https://www.bilibili.com/video/BV1jJ41127YT/?spm_id_from=333.788.videocard.0
   
-⭐️如果你不会安装，需要安装服务，联系微信ske1996
-可提供收费安装服务，并且保修1个月  
+**⭐️如果你不会安装，需要安装服务，** [点击进入我的淘宝店铺](https://item.taobao.com/item.htm?spm=a2oq0.12575281.0.0.45e51debf0yJ4n&ft=t&id=638314994173)  
 
-有问题只在github免费答疑，不在微信进行答疑，想白嫖请在github提交issue，微信勿扰  
 </details>  
   
   
@@ -214,8 +204,8 @@ https://www.bilibili.com/video/BV1jJ41127YT/?spm_id_from=333.788.videocard.0
 
 4.视频的【16:44】开始是使用easyuefi创建efi引导，这一步前面都跟他视频一样，他怎么点你就怎么点，只不过，选择引导文件为：EFI/BOOT/BOOTx64.efi
   
-⭐️如果你不会安装，需要安装服务，联系微信ske1996  
-可提供收费安装服务，帮你弄好一切可以弄好的驱动，并且保修1个月，收费250，非诚勿扰    
+**⭐️如果你不会安装，需要安装服务，** [点击进入我的淘宝店铺](https://item.taobao.com/item.htm?spm=a2oq0.12575281.0.0.45e51debf0yJ4n&ft=t&id=638314994173)  
+
 </details>
 
 ## 安装后：  
