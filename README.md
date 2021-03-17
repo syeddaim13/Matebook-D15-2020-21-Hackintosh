@@ -156,61 +156,27 @@ matebook D14 2020 i5-10210U
 
 </details>  
 
-## 安装方法&镜像下载&视频教程： 
+## 有关安装： 
   
 
-<details>  
-<summary>⚠️说明（一定先读这个）</summary>  
-
-1. 以下教程仅针对安装Catalina，想安装bigsur的自行搜索oc的安装教程  
-  
-2. 如果你在以下教程有遇到五国，或者是usb导致的卡eb，卡禁止符号  
-  方法1.用oc安装，直接在硬盘efi分区扩容后放进我oc的efi，然后用oc引导安装盘，具体教程自行百度  
-  方法2.删除u盘中的efi/clover/kexts/other/usbinjectall.kext以及efi/clover/kexts/other/usbport.kext  
-
-3. 关于三星pm981硬盘的版本 [点击查看教程](https://github.com/wendao2008/Matebook-D14-2020-hackintosh-Pm981/blob/main/README.md)  
-4. **⭐️如果你不会安装，需要安装服务，** [点击进入我的淘宝店铺](https://item.taobao.com/item.htm?spm=a2oq0.12575281.0.0.45e51debf0yJ4n&ft=t&id=638314994173)  
-  
-</details>  
-
-<details>  
-<summary>点击查看镜像下载</summary>  
-先于此blog下载：10.15.5 19F101 双EFI分区版
-
-这个文章很长，使劲往下翻，或使用网页搜索功能
-
-下载链接
-：https://blog.daliansky.net/macOS-Catalina-10.15.5-19F96-Release-version-with-Clover-5118-original-image-Double-EFI-Version-UEFI-and-MBR.html
-  
-</details>  
-
-      
-<details>  
-<summary>点击查看安装视频教程</summary>
-
-https://www.bilibili.com/video/BV1jJ41127YT/?spm_id_from=333.788.videocard.0
-  
-**⭐️如果你不会安装，需要安装服务，** [点击进入我的淘宝店铺](https://item.taobao.com/item.htm?spm=a2oq0.12575281.0.0.45e51debf0yJ4n&ft=t&id=638314994173)  
-
-</details>  
-  
-  
-
-<details>  
-<summary>安装注意点</summary>  
 ⚠️事前准备：f2进bios，调成中文，然后关闭一切带有“安全”的东西，保存，退出  
+
+
+镜像下载链接：https://blog.daliansky.net/  
+
+OC官方教程:https://dortania.github.io/OpenCore-Install-Guide/  
   
-1.安装使用的镜像推荐使用我给的链接下载的那个，不要用他给的，因为有点旧了  
 
-2.视频的【03:57】他说把配置好的clover文件解压到这个文件夹下时，将我的库中的【安装用clover的EFI】放进去  
 
-3.视频的【14:37】开始他开始吧u盘的clover efi复制进ESR（EFI）分区，这一步复制我的oc的efi进去。注意：这一步的efi跟第二步不一样，这一步用oc的
-
-4.视频的【16:44】开始是使用easyuefi创建efi引导，这一步前面都跟他视频一样，他怎么点你就怎么点，只不过，选择引导文件为：EFI/BOOT/BOOTx64.efi
-  
 **⭐️如果你不会安装，需要安装服务，** [点击进入我的淘宝店铺](https://item.taobao.com/item.htm?spm=a2oq0.12575281.0.0.45e51debf0yJ4n&ft=t&id=638314994173)  
 
-</details>
+
+
+
+  
+  
+
+
 
 ## 安装后：  
 
