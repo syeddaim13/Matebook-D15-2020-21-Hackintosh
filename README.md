@@ -92,25 +92,35 @@ bigsur跟catalina需要对号入座，不可串着用
 </details>   
 
 ## 正常可用的部件：
-  
- 
+**以下的【蓝牙】【WIFI】【HDMI】的文字可点击后查看详情**   
+
 <details>  
-<summary>1.蓝牙（无需热启动）*点击查看详细说明</summary>   
+<summary>1.蓝牙</summary>   
   
-驱动作者[@zxystd](https://github.com/OpenIntelWireless/itlwm)  
+驱动作者[@zxystd](https://github.com/OpenIntelWireless/IntelBluetoothFirmware)  
 1. 华为的蓝牙鼠标不可用！！！  
-2. 苹果的妙控2可用  
-3. 有个可爱的小哥哥@Baiyu0124发现了一款可用的没什么牌子的鼠标[淘宝链接](https://m.tb.cn/h.VtTxb0H?sm=bfed64)   
-4. 微软设计师鼠标可用[淘宝链接](https://detail.tmall.com/item.htm?id=575557854943&spm=a1z09.2.0.0.119c2e8dUqx3iI&_u=bkg3nm2911&sku_properties=5919063:6536025)  
+2. 苹果的妙控2可用   
+3. 亲眼所见，微软设计师鼠标可用[淘宝链接](https://detail.tmall.com/item.htm?id=575557854943&spm=a1z09.2.0.0.119c2e8dUqx3iI&_u=bkg3nm2911&sku_properties=5919063:6536025)  
+4. 亲眼所见，型号为thinkpad 0a36193（SMB）的蓝牙鼠标可用，购买选“蓝牙无线激光”，[京东链接-移动端](https://item.m.jd.com/product/748175.html?utm_campaign=t_1001328990)  
+5. Airpods可以用，但是你得配对一次，我们又不是白苹果，不能开盖就用  
+6. 以下几个蓝牙鼠标根据群友测试说可用，但是我没亲眼所见，要是买了发现不能用别怪我  
+----雷柏m200g/刺鳞树蝰/罗技m336/微软sculpt/英菲克/飞利浦spk7355  
+
 </details>   
 
   
 <details>  
-<summary>2.wifi可用 *点击查看详细说明</summary>  
+<summary>2.WIFI</summary>  
   
-1. 使用了Z大的最新AirportItlwm的wifi驱动，跟heliport说拜拜啦.  
+1. 使用了Z大的最新AirportItlwm的wifi驱动，跟heliport说拜拜啦  
+
 
 2. 驱动作者[@zxystd](https://github.com/OpenIntelWireless/itlwm)  
+
+3. Airdrop和无线的随航不可用，随航需要插线用，handoff可用但有时不太稳定，可以用apple watch解锁mac，但是有时不稳定  
+4. Wi-Fi觉得不好使的去上面我写出来的作者的repo里更新驱动
+5. Wi-Fi连接要尽可能的去连5ghz的
+6. 从Windows切换过来MacOS发现wifi没法用就关机，10s后再开机
 
 </details>   
 
