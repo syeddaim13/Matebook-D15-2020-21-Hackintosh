@@ -62,6 +62,9 @@ EFI下载地址：[releases](https://github.com/ske1996/Matebook-D14-2020-hackin
 <summary>点击以查看详细信息</summary>  
   
 
+- 20210506:  
+合并了Catalina跟BigSur的EFI  
+
 - 20210223:  
 添加了一个Matebook D15 2020 pm981 专用的efi，一切正常  
 
