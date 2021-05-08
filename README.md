@@ -1,4 +1,4 @@
-# Matebook-D14-2020-OpenCore 黑苹果 hackintosh  
+# Matebook-D14/D15-2020-OpenCore 黑苹果 hackintosh  
   
   
 **⭐️如果你不会安装，需要安装服务，** [点击进入我的淘宝店铺](https://item.taobao.com/item.htm?spm=2013.1.w4023-23478929585.7.643c3fccUH4XDY&id=638655575887)  
