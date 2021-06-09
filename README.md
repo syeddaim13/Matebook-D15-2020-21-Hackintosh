@@ -331,6 +331,8 @@ https://zhuanlan.zhihu.com/p/121655468
 5. Crtl加w保存就行了  
 
   
+最后记得用propertree去修改一下config，移除里面缓冲帧的“framebuffer-fbmem”，“framebuffer-stolenmem”，“framebuffer-unifiedmem”这三个条目。  
+
   
 [本教程灵感来源@laozhiang](https://github.com/laozhiang)  
   
