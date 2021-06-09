@@ -90,8 +90,11 @@ bigsur跟catalina需要对号入座，不可串着用
 <details>  
 <summary>关于引导MacOS 12 Monterey</summary>  
 先说结论：可，无论是OTA升级，或者是全新安装。  
-微调一下config就行，不需要更新东西。
+  
+微调一下config就行，不需要更新东西。  
+
 编辑config，给boot-args加上-lilubetaall，然后在kernel/add里禁用wifi驱动以及两个蓝牙驱动，做完后记得reset nvram。  
+
 就可以去按照apple所要求的流程去OTA了。  
 
 蓝牙Wi-Fi暂时没法用，其他都还好。  
