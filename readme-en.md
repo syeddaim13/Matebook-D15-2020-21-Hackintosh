@@ -16,7 +16,7 @@ readme in other language:
 
 Sister project:  
 [Matebook-x-pro-2019-OpenCore 黑苹果 hackintosh  ](https://github.com/ske1996/Matebook-x-pro-2019-Hackintosh-newest/blob/main/readme-en.md)  
-[Matebook-D14/D15-2020-OpenCore 黑苹果 hackintosh  ](https://github.com/ske1996/Matebook-D14-2020-hackintosh)  
+[matebook-13/14-OpenCore 黑苹果 hackintosh  ](https://github.com/ske1996/matebook-13-2019-oc-efi/blob/master/readme-en.md)  
 [matebook-x-2020-Hackintosh-OpenCore-黑苹果   ](https://github.com/ske1996/matebook-x-2020-Hackintosh-OpenCore/blob/main/readme-en.md)  
 
 
@@ -55,86 +55,37 @@ A telegram group in ：https://t.me/hackintosh_matebook13
 <details>  
 <summary>click for details</summary>  
 
-- 20210508:  
-changed some value in boot-args and framebuffer，try to optimize drm and sidecar.    
+**will translate it when i get some free time.**  
+  
+- 20210506:  
+合并了Catalina跟BigSur的EFI,尝试修复了drm以及sidecar问题，尝试优化了缓冲帧参数  
 
-- 20210426:  
-OpenCore's version is still in 0.6.5,but I've rebulit all of EFI files,no longer differentiate EFI files for Catalina or BigSur from right now,upgraded Airportitlwm to 1.3 stable,and added a property "force-online 01000000" to framebuffer   
+- 20210223:  
+添加了一个Matebook D15 2020 pm981 专用的efi，一切正常  
 
-- 20210317:  
-I wont upgrade anything until it will be necessary to do(likes apple changed their secure boot policy,so you have to use latest opencore to boot etc.),it still works well on even lastest version of macos(11.2.3，when i wrote this). so,see you in next necessary-upgrade version.  
 
-- 20210130:  
-Upgraded all Bigsur version's EFI to OpenCore 0.6.5，Upgraded some kexts to latest version，and added boot chime. 
+- 20201205:  
+关了sip  
+以及设置安全模式为默认  
 
-- 20201113:  
-Upgraded all Bigsur version's EFI to OpenCore 0.6.4，Supported Bigsur 11.0.1 Public Release  
+- 20201117:  
+更新至oc 0.6.4，删除了一些不必要的东西，更新了所有我认为有必要更新的驱动  
+  
+  
+- 20201012:    
+修复了唤醒后色彩失真的问题，本次缓冲帧部分来自于[@Shaopeng](https://github.com/gongshaopeng0828)  
 
-- 20201106:  
-Upgraded OpenCore which is for MB13/14 2018-2019(BigSur ver) to 0.6.3  
-
-- 20201031:  
-Upgraded OpenCore which is for MB13/14 2018-2019(BigSur ver) to 0.6.2  
- 
-
-- 20200918:  
-deleted two fakepcid kexts and some other things，now efi is very clean，and try to fix wifi-bluetooth conflict issue    
-
+- 20201011:  
+尝试修复了hdmi问题，目前hdmi可用，但是可能唤醒后会导致色彩失真的问题，可以尝试去偏好设置，显示器，色彩的位置做调整  
+另外感谢[@Shaopeng](https://github.com/gongshaopeng0828)帮忙测试  
 
 - 20200917:  
-upgrade oc to 0.6.1,and removed itlwm.kext,added AirportItlwm.kext,heliport is not necessary now  
-you need to download correct version for efi,it according to your os version.   
- 
-- 20200916:  
-delete more useless kext and ssdt,this version will take less ram,and upgrade opencore to 0.6.1  
+使用了Z大的最新AirportItlwm的wifi驱动，跟heliport说拜拜啦，今后可以原生切换wifi了，另将oc升级至0.6.1  
+bigsur跟catalina需要对号入座，不可串着用  
 
- 
- 
-- 20200905:    
-added something interesting+SMCLightSensor.kext  
-
-
+- 20200904:  
+上传了根据OC官方版制成的efi  
   
-  
-- 20200822:    
-Deleted some useless ssdt.  
-
-- 20200814:  
-Rebuild some ssdt make it more compact.  
-and you can use this efi boot both catalina and bigsur now.it is steadily and worked well.  
-
-- 20200806:  
-Upgrade OpenCore to official 0.6.0  
-
-
-- 20200802:  
-updated itlwmx.kext for 2020ver laptop,[click for download](https://github.com/ske1996/matebook-13-2019-oc-efi/raw/master/itlwmx%20beta0802.zip)  
-
-    
-- 20200728:  
-added public beta of itlwm.kext and heliport  
-
-- 20200725:  
-Support Macos 10.15.6  
-
-- 20200724:  
-upgrade opencore to 0.5.9  
-
-
-- 20200715:  
-audio jack fixed,thanks randomprofilename  
-
-- 20200712:  
-this efi could be used in matebook 13/14 2019  
-and under 2020 version likes:  
-except wifi couldnt be load,everything is as same as 2019 version,works fine.  
-the reason might be the 2020 version use 2gen ac9560,maybe can be fixed in future.
-
-
-- 20200710:  
-add a clover efi for installing macos,  
-this clover efi could be used to boot your hackintosh,too  
-But I strongly recommand to use opencore(oc) efi to boot your device.  
 
 
 </details>  
@@ -145,11 +96,12 @@ But I strongly recommand to use opencore(oc) efi to boot your device.
 
 Whatever you want to upgrade your hackintosh from BigSur,or new-installing.
 
-Just edit config.plist,to add "-lilubetaall" at boot-args and disable "airportitlwm" and that two bluetooth kexts at kernel/add,  
-and reset nvram.  
-then OTA(install) it with apple's guide.  
+need to do:  
+upgrade your lilu and replace your airportitlwm and intelbluetoothfirmware to lastest ones,
+disabled intelbuletoothinjector and add bluetoolfix to oc/kexts/ and config.plist.
+then,OTA or new-installing your OS with apple's guide.
 
-Bluetooth doesnt work,other things just fine.
+Every thing works likein bigsur,but need to replace some kext.
 
 My experience: [click this](https://github.com/ske1996/matebook-13-2019-oc-efi/issues/155)  
 
