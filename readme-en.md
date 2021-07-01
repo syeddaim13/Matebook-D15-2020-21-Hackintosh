@@ -98,10 +98,10 @@ Whatever you want to upgrade your hackintosh from BigSur,or new-installing.
 
 need to do:  
 upgrade your lilu and replace your airportitlwm and intelbluetoothfirmware to lastest ones,
-disabled intelbuletoothinjector and add bluetoolfix to oc/kexts/ and config.plist.
+disable intelbuletoothinjector and add bluetoolfix to oc/kexts/ and config.plist.
 then,OTA or new-installing your OS with apple's guide.
 
-Every thing works likein bigsur,but need to replace some kext.
+Every thing works like in BigSur,but need to replace some kext.
 
 My experience: [click this](https://github.com/ske1996/matebook-13-2019-oc-efi/issues/155)  
 
