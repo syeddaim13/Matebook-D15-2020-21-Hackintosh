@@ -147,8 +147,17 @@ A list of workable bluetooth mouse:https://github.com/ske1996/matebook-13-2019-o
 9. USB Mapping
 
 10. FN hot key(brightness and sound)  
+ 
+<details>  
+<summary>Audio jack and Speaker</summary>   
 
-11. Audio jack and Speaker(layout id:21) 
+layout id in 21.  
+  
+ 
+and if yours's sells-area is not China,Audio jack and Speaker maybe wont work,cause of different hardware:https://github.com/ske1996/Matebook-D14-2020-hackintosh/issues/24  
+
+
+</details>   
 
 
   
