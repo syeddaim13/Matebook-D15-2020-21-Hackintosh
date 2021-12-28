@@ -114,7 +114,7 @@ My experience: [click this](https://github.com/ske1996/matebook-13-2019-oc-efi/i
 
 ## Works fine：
 
-**click "Bluetooth" and "HDMI" for more information**    
+**click "Bluetooth" and "HDMI" "Audio jack and Speakerfor" for more information**    
 
 <details>  
 <summary>1.Bluetooth</summary>   
@@ -149,7 +149,7 @@ A list of workable bluetooth mouse:https://github.com/ske1996/matebook-13-2019-o
 10. FN hot key(brightness and sound)  
  
 <details>  
-<summary>Audio jack and Speaker</summary>   
+<summary>11. Audio jack and Speaker</summary>   
 
 layout id in 21.  
   
