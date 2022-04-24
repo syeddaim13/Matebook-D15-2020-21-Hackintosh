@@ -1,4 +1,4 @@
-# Matebook-D14/D15-2020-OpenCore 黑苹果 hackintosh  
+# Matebook-D15-2020-OpenCore Hackintosh  
 ```
 This project supports 2020 version Matebook D15 (intel ver only)
 ```
@@ -12,9 +12,6 @@
   Inital release (0.7.9)
    
 </details> 
-
-
-**Supported BigSur and Monterey already**  
 
 ## Works fine：
 
@@ -73,7 +70,7 @@ and if yours's sells-area is not China,Audio jack and Speaker maybe wont work,ca
 *If you need a workable webcam,buy Logicool c270,I'm using it,pretty good.  
 
 
-2. mx250/150/350（hopeless）
+2. MX250/150/350（hopeless）
 
   
 
@@ -283,18 +280,6 @@ Reg add HKLM\SYSTEM\CurrentControlSet\Control\TimeZoneInformation /v RealTimeIsU
 
 
 </details>       
-  
-
-## If you want to support my work：
-
-Please donate with paypal  
-
-[click to donate](https://paypal.me/ske1996)  
-
-![image](https://github.com/ske1996/matebook-13-2019-oc-efi/blob/master/%E6%9D%82%E9%A1%B9/paypal.png?raw=true)  
-
-[click to donate](https://paypal.me/ske1996)  
-
 
 ## Thanks：
 
