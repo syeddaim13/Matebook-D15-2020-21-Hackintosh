@@ -4,12 +4,12 @@
 # Huawei Matebook 15 2020/21 OpenCore Hackintosh
 
 ```
- This project supports the Intel version of the Huawei Matebook D15 (2020)
+ This project supports the Intel version of the Huawei Matebook D15 (2020/21)
 ```
 
 | ✨| Specifications |
 |:--------------:|:------------------------------------------------------------------------------------------------------------------:|
-|Model | Huawei Matebook D15 **2020/21** (BoB-WAH9)|
+|Model | Huawei Matebook D15 **2020** (BoB-WAH9)|
 | CPU |    Intel Core i5 10210U (Comet Lake) |
 | GPU | Intel UHD620 </br> Nvidia MX250|
 |RAM  |     8GB DDR4|
