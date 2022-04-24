@@ -7,10 +7,10 @@
  This project supports the Intel version of the Huawei Matebook D15 (2020)
 ```
 
-|  | |
+| |Specifications |
 |:--------------:|:------------------------------------------------------------------------------------------------------------------:|
 |Model | Huawei Matebook D15 **2020**|
-| CPU |    Intel Core i5 10210U / i7 10510U (Comet Lake) |
+| CPU |    Intel Core i5 10210U (Comet Lake) |
 | GPU | Intel UHD620 </br> Nvidia MX250 / MX350 |
 |RAM  |     8GB / 16GB LPDDR3|
 | WiFi/BT  | Intel 9560AC CNVio <br>|
