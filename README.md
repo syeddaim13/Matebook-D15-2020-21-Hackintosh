@@ -16,7 +16,7 @@
 | WiFi/BT  | Intel 9560AC CNVio <br>|
 | Trackpad|  ETD2204  |
 | Audio |  ALC256 |
-|Storage | ~~SAMSUNG PM981 (not supported)~~ <br> WDC PC SN730 </br>|
+|Storage | ~~SAMSUNG PM991 (not supported)~~ <br> WDC PC SN730 </br>|
 | Display | 1920*1080|
 |SMBIOS | MacBookPro 16,3|
 | BIOS | Latest version|
@@ -78,6 +78,8 @@ Inital release (0.7.9)
 
 3. DRM enabled video content in Safari, Apple TV, and the Music app.
 	(for online streaming, use Google Chrome. Apple Music is sometimes unable to play Dolby Atmos and other Lossless content however local files work fine. DRM can't be fixed as it requires a dedicated AMD GPU.)
+	
+4. The Samsung PM991 NVMe SSD that may come preinstalled is not supported due to controller issues and can even cause panics when writing to after installation. There used to be a patch for this but as of right now please install onto the HDD or replace one of the drives.
 	
 ## About installation
 
