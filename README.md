@@ -7,6 +7,20 @@
  This project supports the Intel version of the Huawei Matebook D15 (2020)
 ```
 
+|  | |
+|:--------------:|:------------------------------------------------------------------------------------------------------------------:|
+|Model | Huawei Matebook D15 **2020**|
+| CPU |    Intel Core i5 10210U / i7 10510U (Comet Lake) |
+| GPU | Intel UHD620 </br> Nvidia MX250 / MX350 |
+|RAM  |     8GB / 16GB LPDDR3|
+| WiFi/BT  | Intel 9560AC CNVio <br>|
+| Trackpad|  ETD2204  |
+| Audio |  ALC256 |
+|Storage | ~~SAMSUNG PM981 (not supported)~~ <br> WDC PC SN730 </br>|
+| Display | 1920*1080|
+|SMBIOS | MacBookPro 16,3|
+| BIOS | Latest version|
+--------
   
 
 ## Changelog:
@@ -54,7 +68,7 @@ Inital release (0.7.9)
 
   
 
-## Incompatible：
+## Incompatible
 
 1. Webcam
 （UVC Camera VendorID_1480 ProductID_975 is available）
@@ -64,6 +78,7 @@ Inital release (0.7.9)
 
 3. DRM enabled video content in Safari, Apple TV, and the Music app.
 	(for online streaming, use Google Chrome. Apple Music is sometimes unable to play Dolby Atmos and other Lossless content however local files work fine. DRM can't be fixed as it requires a dedicated AMD GPU.)
+	
 ## About installation
 
   
@@ -260,7 +275,7 @@ And alt+q to quit
 
   
 
-Btw.DO NOT use opencore to boot what i uploaded
+Btw, DO NOT use opencore to boot what i uploaded
 
   
 
