@@ -23,7 +23,7 @@
 --------
   
 
-## Changelog:
+## Changelog
 
   
 
@@ -41,7 +41,7 @@ Inital release (0.7.9)
 
   
 
-## Compatible：
+## What works
 
 1. Bluetooth
 
@@ -68,7 +68,7 @@ Inital release (0.7.9)
 
   
 
-## Incompatible
+## and what doesn't...
 
 1. Webcam
 （UVC Camera VendorID_1480 ProductID_975 is available）
