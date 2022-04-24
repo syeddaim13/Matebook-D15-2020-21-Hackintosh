@@ -81,15 +81,14 @@ Inital release (0.7.9)
 	
 4. The Samsung PM991 NVMe SSD that may come preinstalled is not supported due to controller issues and can even cause panics when writing to after installation. There used to be a patch for this but as of right now please install onto the HDD or replace one of the drives.
 	
-## About installation
+## Preinstall requisites
 
   
 
 <details>
 
-<summary>⚠️Preprocessing：inject SSN,UUID,ROM,MLB (click for details)</summary>
-
-Make sure to configure your PlatformInfo before booting.
+<summary>Customise PlatformInfo (Serial Number, MAC address etc.) </summary>
+<br> </br>
 
 Read [Dortania's Install Guide](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/coffee-lake-plus.html#platforminfo) for more info.
 
@@ -97,110 +96,11 @@ Use [ProperTree](https://github.com/corpnewt/ProperTree) to edit the config.plis
 
 </details>
 
-  
-
 <details>
 
-<summary> How to install：</summary>
-
-
-Check out [Dortania's Install Guide](https://dortania.github.io/OpenCore-Install-Guide/) for more info. 
-
-This is a Comet Lake Intel laptop.
+<summary>Disable CFG lock</summary>
   
-</details>
-
-## Important notes
-
-  
-
-<details>
-
-<summary>⚠️Warning</summary>
-
-⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️
-
-1. Do not attempt to boot Windows via OpenCore.
-
-The ACPI files attempt to inject themselves into Windows, preventing it from booting. So you won't be getting far anyway.
-
-You should just set macOS as the default boot option via OpenCore by pressing **Ctrl + Enter** to choose Mac partition while on the boot picker.
-
-and edit config.plist to disable "showpicker" which is at EFI/OC.
-
-then press F12 immediately after you press power button, and choose the option called "Windows Boot Manager" to boot Windows with original UEFI bootloader.
-
-
-2.You should edit the config.plist to customize MLB/SN/UUID which is unique before you start to use your laptop as daily pc.
-
-
-</details>
-
-  
-
-  
-
-  
-
-<details>
-
-<summary>Install ComboJack to fix audio jack  </summary>
-
-![image](https://github.com/ske1996/matebook-13-2019-oc-efi/blob/master/%E6%9D%82%E9%A1%B9/audiojack.png?raw=true)
-
-  
-
-  
-
-From Heporis:
-
-  
-
-https://github.com/randomprofilename/ComboJack
-
-  
-
-  
-
-run install.sh in terminal:
-(You may need to enable the ROOT user under macOS Monterey for this to work.)
-
-  
-
-```bash
-
-ComboJack_Installer/install.sh
-
-```
-
-</details>
-
-  
-
-  
-
-  
-
-  
-
-  
-
-<details>
-
-<summary>How to disable CFG lock：(required to boot) </summary>
-
-  
-
-✨For perfect power management and smooth boost
-
-if you got unnormal cpu boost issue or overheating issue,i recommand to do this
-
-  
-
-  
-
-  
-
+<br> </br>
 1.Format a usb stick to fat32
 
   
@@ -289,20 +189,12 @@ then use [propertree](https://github.com/ske1996/matebook-13-2019-oc-efi/raw/mas
 
   
 
-That is all of how to unlock cfg for matebook D series laptop.
-
-  
-
-And you will get a perfect power management
-
-  
-
 </details>
 
 <details>
 
-<summary>Change DMVT to 64 MB (also required to boot) </summary>
-
+<summary>Change DMVT to 64 MB</summary>
+<br> </br>
 (you'll need an external keyboard for this one as we don't have the Page Down key)
 
 our dvmt is 32mb in defult,and it just support hdmi output to 4k30p
@@ -356,6 +248,86 @@ At last,dont forget to remove these three properties which are named “framebuf
   
 
 </details>
+
+  
+
+
+
+## The actual installing part
+
+Check out [Dortania's Install Guide](https://dortania.github.io/OpenCore-Install-Guide/) for in-depth info. 
+
+This is a Comet Lake Intel laptop.
+  
+  
+## Postinstall tingz ✨
+
+  
+
+<details>
+
+<summary>Boot into Windows via OpenCore</summary>
+
+[dont.](https://www.youtube.com/watch?v=yxzJhJ9AiUY)
+
+Do not attempt to boot Windows via OpenCore.
+
+The ACPI files attempt to inject themselves into Windows, preventing it from booting. So you won't be getting far anyway.
+
+You should just set macOS as the default boot option via OpenCore by pressing **Ctrl + Enter** to choose Mac partition while on the boot picker.
+
+and edit config.plist to disable "showpicker" which is at EFI/OC.
+
+then press F12 immediately after you press power button, and choose the option called "Windows Boot Manager" to boot Windows with original UEFI bootloader.
+
+</details>
+
+  
+
+  
+
+  
+
+<details>
+
+<summary>Install ComboJack to fix audio jack  </summary>
+
+![image](https://github.com/ske1996/matebook-13-2019-oc-efi/blob/master/%E6%9D%82%E9%A1%B9/audiojack.png?raw=true)
+
+  
+
+  
+
+From Heporis:
+
+  
+
+https://github.com/randomprofilename/ComboJack
+
+  
+
+  
+
+run install.sh in terminal:
+(You may need to enable the ROOT user under macOS Monterey for this to work.)
+
+  
+
+```bash
+
+ComboJack_Installer/install.sh
+
+```
+
+</details>
+
+  
+
+  
+
+  
+
+  
 
   
 
