@@ -13,7 +13,7 @@
 | CPU |    Intel Core i5 10210U (Comet Lake) |
 | GPU | Intel UHD620 </br> Nvidia MX250|
 |RAM  |     8GB DDR4|
-| WiFi/BT  | Intel 9560AC CNVio <br>|
+| WiFi/BT  | Intel 9560AC CNVio <br> (even though it's reported as 9462AC) </br>|
 | Trackpad|  ETD2204  |
 | Audio |  ALC256 |
 |Storage | ~~SAMSUNG PM991 (not supported)~~ <br> WD SN730 </br>|
