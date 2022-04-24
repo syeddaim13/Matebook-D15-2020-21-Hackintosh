@@ -71,7 +71,7 @@ Inital release (0.7.9)
 ## and what doesn't...
 
 1. Webcam
-（UVC Camera VendorID_1480 ProductID_975 is available）
+（Shows up as ov9734_azurewave_camera but doesn't actually work.）
 	*_Use a USB webcam as a workaround_
 
 2. Dedicated Nvidia MX250 GPU
