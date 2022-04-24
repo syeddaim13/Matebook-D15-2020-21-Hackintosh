@@ -359,9 +359,10 @@ At last,dont forget to remove these three properties which are named “framebuf
 
 <details>
 
-<summary>fix time issue between windows and macos(for double boot)</summary>
+<summary> Fix time difference between Windows and macOS (for dual boot) </summary>
 
-in windows press WIN+x run CMD with administrator
+Windows stores time as the Local Time, whereas macOS uses UTC.
+To fix this, boot into Windows and run CMD as administrator.
 
 input：
 
