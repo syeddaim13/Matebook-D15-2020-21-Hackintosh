@@ -1,111 +1,15 @@
 # Matebook-D14/D15-2020-OpenCore 黑苹果 hackintosh  
-
-  
-
-
-readme in other language:  
-[中文🇨🇳](README.md) |  [English🇬🇧](readme-en.md)   
-
-
-**Run Apple's Macos on HUAWEI MateBook series laptop stably and almost perfectly**  
-
 ```
-This project supports 2020 version Matebook D14&D15 (intel ver only)
+This project supports 2020 version Matebook D15 (intel ver only)
 ```
-
-
-Sister project:  
-[Matebook-x-pro-2019-OpenCore 黑苹果 hackintosh  ](https://github.com/ske1996/Matebook-x-pro-2019-Hackintosh-newest/blob/main/readme-en.md)  
-[matebook-13/14-OpenCore 黑苹果 hackintosh  ](https://github.com/ske1996/matebook-13-2019-oc-efi/blob/master/readme-en.md)  
-[matebook-x-2020-Hackintosh-OpenCore-黑苹果   ](https://github.com/ske1996/matebook-x-2020-Hackintosh-OpenCore/blob/main/readme-en.md)  
-
-
-<details>  
-<summary>⭐️click this to check how macos works on matebook series</summary>  
- 
-
-[click this to watch Video](https://www.bilibili.com/video/bv18z4y1U7rz)  
- 
-![image](https://github.com/ske1996/matebook-13-2019-oc-efi/blob/master/%E6%9D%82%E9%A1%B9/Monterey%20review.png?raw=true)   
- 
-![image](https://github.com/ske1996/matebook-13-2019-oc-efi/blob/master/%E6%9D%82%E9%A1%B9/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202020-11-14%2019.30.41.png?raw=true)     
-![image](https://i0.hdslb.com/bfs/article/0d73e23780c4a4a5b80b1e956dc8957bb95f3372.jpg@1320w_880h.webp)  
-![image](https://i0.hdslb.com/bfs/article/3c89fd7615510c1b2e9efa1c6024348b4b635abc.jpg@1320w_1760h.webp)  
-
-[click this to watch Video](https://www.bilibili.com/video/bv18z4y1U7rz)  
- 
-
-</details>   
-
-Report & Feedback：[![issue](https://img.shields.io/github/issues/ske1996/matebook-13-2019-oc-efi?style=plastic)](https://github.com/ske1996/matebook-13-2019-oc-efi/issues)  
-
-
-
-
-**If you Star my repo (click star⭐️ at upper right of this page), I will so happy.**  
-
-
-A telegram group in ：https://t.me/hackintosh_matebook13  
-
-
-
 
 ## Update log:  
 
 <details>  
 <summary>click for details</summary>  
 
-**will translate it when i get some free time.**  
-  
-- 20210506:  
-合并了Catalina跟BigSur的EFI,尝试修复了drm以及sidecar问题，尝试优化了缓冲帧参数  
-
-- 20210223:  
-添加了一个Matebook D15 2020 pm981 专用的efi，一切正常  
-
-
-- 20201205:  
-关了sip  
-以及设置安全模式为默认  
-
-- 20201117:  
-更新至oc 0.6.4，删除了一些不必要的东西，更新了所有我认为有必要更新的驱动  
-  
-  
-- 20201012:    
-修复了唤醒后色彩失真的问题，本次缓冲帧部分来自于[@Shaopeng](https://github.com/gongshaopeng0828)  
-
-- 20201011:  
-尝试修复了hdmi问题，目前hdmi可用，但是可能唤醒后会导致色彩失真的问题，可以尝试去偏好设置，显示器，色彩的位置做调整  
-另外感谢[@Shaopeng](https://github.com/gongshaopeng0828)帮忙测试  
-
-- 20200917:  
-使用了Z大的最新AirportItlwm的wifi驱动，跟heliport说拜拜啦，今后可以原生切换wifi了，另将oc升级至0.6.1  
-bigsur跟catalina需要对号入座，不可串着用  
-
-- 20200904:  
-上传了根据OC官方版制成的efi  
-  
-
-
-</details>  
-<details>  
-<summary>About booting MacOS 12 Monterey</summary>  
-
-【Yes,we can boot it.】  
-
-Whatever you want to upgrade your hackintosh from BigSur,or new-installing.
-
-need to do:  
-upgrade your lilu and replace your airportitlwm and intelbluetoothfirmware to lastest ones,
-disable intelbuletoothinjector and add bluetoolfix to oc/kexts/ and config.plist.
-then,OTA or new-installing your OS with apple's guide.
-
-Every thing works like in BigSur,but need to replace some kext.
-
-My experience: [click this](https://github.com/ske1996/matebook-13-2019-oc-efi/issues/155)  
-
-
+- 24/04/22
+  Inital release (0.7.9)
    
 </details> 
 
