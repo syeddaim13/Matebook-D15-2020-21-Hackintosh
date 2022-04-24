@@ -1,6 +1,6 @@
 # Matebook-D15-2020-OpenCore Hackintosh  
 ```
-This project supports 2020 version Matebook D15 (intel ver only)
+ This project supports the Intel version of the Huawei Matebook D15 (2020)
 ```
 
 ## Update log:  
@@ -114,17 +114,6 @@ Thanks [@Francisco Novoa(from Chile🇨🇱)](https://t.me/hackintosh_matebook13
 
 </details>  
 
-<details>  
-<summary>For someone who wants to run BigSur on his/her device</summary> 
-
-
-1. OTA works for upgrading to BigSur from Catalina  
-2. However you want to install BigSur on your device,I recommand you to unlock CFG at frist for avoiding some problem you maybe will get.  
-
-
-
-
-</details>  
 
 
 ## After installation
@@ -288,3 +277,5 @@ Reg add HKLM\SYSTEM\CurrentControlSet\Control\TimeZoneInformation /v RealTimeIsU
 - [@apple](https://www.apple.com/) created macos  
  
 - [@zxystd](https://github.com/OpenIntelWireless/itlwm) created kexts of wifi and bluetooth  
+
+- [@ske1996](https://github.com/ske1996/Matebook-D14-2020-hackintosh) For the original ACPI files and config.plist.
