@@ -367,4 +367,4 @@ Reg add HKLM\SYSTEM\CurrentControlSet\Control\TimeZoneInformation /v RealTimeIsU
 
   
 
-- [@ske1996](https://github.com/ske1996/Matebook-D14-2020-hackintosh) For the original ACPI files and config.plist.
+- [@ske1996](https://github.com/ske1996/Matebook-D14-2020-hackintosh) For the original ACPI files, config.plist and BIOS hackery guides.
