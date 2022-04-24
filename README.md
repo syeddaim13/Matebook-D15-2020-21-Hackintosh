@@ -11,12 +11,12 @@
 |:--------------:|:------------------------------------------------------------------------------------------------------------------:|
 |Model | Huawei Matebook D15 **2020**|
 | CPU |    Intel Core i5 10210U (Comet Lake) |
-| GPU | Intel UHD620 </br> Nvidia MX250 / MX350 |
+| GPU | Intel UHD620 </br> Nvidia MX250|
 |RAM  |     8GB DDR4|
 | WiFi/BT  | Intel 9560AC CNVio <br>|
 | Trackpad|  ETD2204  |
 | Audio |  ALC256 |
-|Storage | ~~SAMSUNG PM991 (not supported)~~ <br> WDC PC SN730 </br>|
+|Storage | ~~SAMSUNG PM991 (not supported)~~ <br> WD SN730 </br>|
 | Display | 1920*1080|
 |SMBIOS | MacBookPro 16,3|
 | BIOS | Latest version|
