@@ -32,10 +32,11 @@
 <summary>click for details</summary>
 
   
-
+- 25/04/22
+	Updated to 0.8.0
+	
 - 24/04/22
-
-Inital release (0.7.9)
+	Inital release (0.7.9)
 
 </details>
 
