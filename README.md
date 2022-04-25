@@ -1,7 +1,7 @@
 ﻿
 
 
-# Huawei Matebook 15 2020/21 OpenCore Hackintosh
+# Huawei Matebook D15 2020/21 OpenCore Hackintosh
 
 ```
  This project supports the Intel version of the Huawei Matebook D15 (2020/21)
