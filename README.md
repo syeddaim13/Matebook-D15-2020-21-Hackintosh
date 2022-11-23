@@ -7,7 +7,7 @@
  This project supports the Intel version of the Huawei Matebook D15 (2020/21)
 ```
 
-| ✨| Specifications |
+| | Specifications |
 |:--------------:|:------------------------------------------------------------------------------------------------------------------:|
 |Model | Huawei Matebook D15 **2020** (BoB-WAH9)|
 | CPU |    Intel Core i5 10210U (Comet Lake) |
