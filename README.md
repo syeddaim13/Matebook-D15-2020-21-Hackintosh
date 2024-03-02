@@ -4,6 +4,12 @@
 # Huawei Matebook D15 2020/21 OpenCore Hackintosh
 
 ```
+This project is no longer maintained. 
+Hackintoshes really are the best ads for real Macs.
+Contact me for any help <3
+```
+
+```
  This project supports the Intel version of the Huawei Matebook D15 (2020/21)
 ```
 
